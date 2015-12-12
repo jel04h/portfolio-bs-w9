@@ -1,0 +1,288 @@
+* {box-sizing: border-box;}
+
+body {
+  width: 80%;
+  background-color: #E9EEF3;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Tulpen One', cursive;
+  color: #333840;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4, h5, h6, h7 {
+  font-family: 'Noto Sans', sans-serif;
+  color: #333840;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, nav, figcaption {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: .75em;
+  color: #A6B9D1;
+}
+
+p {
+  line-height: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #A6B9D1;
+}
+
+a:hover {
+  color: #65717F;
+  background-color: white;
+}
+
+header {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+header h1 {
+  width: 39%;
+  float: left;
+  height: 5rem;
+}
+
+header nav {
+  float: right;
+  width: 60%;
+  height: 5rem;
+  text-align: right;
+}
+
+header nav ul li {
+  height: 5rem;
+  display: inline-block;
+  padding-top: 2.45rem;
+  padding-left: 2rem;
+  font-size: 130%;
+}
+
+header nav a {
+  color: #333840;
+}
+
+header nav a:hover {
+  color: #65717F;
+  background-color: white;
+}
+
+article {
+  background-color: white;
+  border-top: #A6B9D1 dashed .1rem;
+  border-bottom: #A6B9D1 dashed .1rem;
+  padding: 1rem;
+  clear: both;
+}
+
+article h1, h2, h3 {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+article p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+article ul.mainpageul {
+  text-align: center;
+}
+
+article ul.mainpageul li {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 1.5rem;
+}
+
+article ul.mainpageul li:hover {
+  background-color: white;
+  border: #65717F dashed .1rem;
+  color: #65717F;
+}
+
+article ul.mainpageul li p:hover {
+  color: #65717F;
+}
+
+article ul.home {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article ul.home li {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 1.5rem;
+}
+
+article ul.home li:hover{
+  background-color: white;
+  border: #A6B9D1 dashed .1rem;
+}
+
+article ul.home li img {
+  width: 100%;
+}
+
+footer {
+  padding: 1.5rem;
+}
+
+footer ul {
+  text-align: center;
+  padding-bottom: .6rem;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+footer ul li a {
+  color: #A6B9D1;
+  font-size: 110%;
+}
+
+footer ul li a:hover {
+  color: #65717F;
+  background-color: white;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* Projects Page CSS */
+
+article ul.projects {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+article ul.projects li {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 1.5rem;
+}
+
+article ul.projects li:hover {
+  background-color: white;
+  color: #65717F;
+  border: #65717F dashed .1rem;
+}
+
+article ul.projects li img:hover {
+  border: #CBE2FF solid .5rem;
+}
+
+/* Photos Page CSS */
+
+article ol.photos {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+article ol.photos h3 {
+  text-align: center;
+  width: 98%;
+  padding: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+article ol.photos img {
+  width: 90%;
+}
+
+article ol.photos li {
+  width: 46%;
+  display: inline-block;
+  background-color: #CBE2FF;
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+article ol.photos li figure {
+  background-color: #65717F;
+  color: #CBE2FF;
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+article ol.photos li figure figcaption {
+  padding-top: .5rem;
+}
+
+/* About Me Page CSS */
+
+article.aboutme {
+  height: 50rem;
+}
+
+article.aboutme p.i {
+  text-align: center;
+}
+
+article.aboutme p {
+  text-align: left;
+  padding: 0;
+  margin-bottom: .5rem;
+}
+
+article.aboutme p img {
+  margin-top: .7rem;
+  height: 30rem;
+  padding: 0 2rem 2rem 0;
+  float: left;
+}
+
