@@ -1,50 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Foundations Class HTML/CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <style>
+      body { padding: 0 8% 80px 8%;}
+      header .navbar { margin-bottom: 0;}
+      footer .container-fluid { margin-left: 8%; margin-right: 8%;}
+      img { margin-top: 8%;}
+      .well h2 { margin-top: 0;}
+      .btn { margin-top: 1em;}
+    </style>
+  
   </head>
   
   <body>
 
     <header>
-      <h1>Foundations Class HTML/CSS</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li><a href="bootstrap-demo.html">Bootstrap</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-        </ul>
-      </nav>
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Foundations Class HTML/CSS</a>
+              </div>
+              <div>
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="photos.html">Photos</a></li>
+                  <li class="active"><a href="bootstrap-demo.html" class="active">Bootstrap</a></li>
+                  <li><a href="about-me.html">About Me</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     
     <main>
-    
-    
-    
+      <div class="row">
+          <div class="col-md-8">
+          <h2>Bootstrap Demo</h2>
+          <p>Tiramisu chocolate cake donut brownie. Candy canes tiramisu cookie halvah lemon drops jelly beans cupcake cotton candy. Donut I love muffin gummi bears soufflé sweet roll sugar plum. Donut donut chocolate dessert powder muffin pie. Muffin marshmallow pie cheesecake bear claw brownie cheesecake I love. Candy jelly cake jelly beans tart donut chocolate cake biscuit. Tiramisu cupcake jelly beans croissant I love tootsie roll gingerbread marshmallow gummi bears. Liquorice topping topping.</p>
+          <p>Fruitcake chocolate bar I love sweet roll. Jujubes lemon drops toffee. Cheesecake marshmallow tart cheesecake I love. Gummies pie jelly beans pastry ice cream. Biscuit soufflé cotton candy cake cake wafer wafer dragée jelly-o. Jelly I love caramels. Cake danish I love. I love dessert liquorice chocolate danish bonbon topping.</p>
+          <p class="well">Cupcake biscuit candy jelly biscuit gingerbread cupcake topping. Liquorice candy biscuit macaroon jelly soufflé. I love lollipop biscuit dragée jelly beans jujubes ice cream gingerbread ice cream. Croissant cake dessert sugar plum brownie chocolate bar. I love chocolate donut. Donut fruitcake marshmallow chocolate cake. Carrot cake tart jelly-o I love. Jelly-o muffin jelly beans tootsie roll candy dragée sweet jelly beans. Marshmallow I love caramels biscuit apple pie marshmallow danish gummi bears.
+          <p>Sugar plum sesame snaps biscuit dragée apple pie apple pie carrot cake. Chocolate cake pie candy. Lemon drops carrot cake gummi bears cheesecake bear claw cookie. I love jelly-o chocolate bar croissant I love. Halvah powder tart macaroon lollipop. Gummi bears sweet sweet roll I love. Donut I love brownie. Marshmallow sesame snaps cake biscuit lollipop gummi bears cookie sugar plum. Jelly donut I love jujubes.</p>
+          <p>Sweet croissant pastry. Bear claw pastry pudding oat cake candy sugar plum. Candy liquorice dragée cookie caramels. Croissant candy canes cheesecake I love dessert tart cookie I love bonbon. Jelly-o candy liquorice cotton candy. Danish cupcake gummies toffee fruitcake bear claw. Bonbon croissant pastry gingerbread marshmallow macaroon candy canes. Marzipan pie sesame snaps. Caramels I love chocolate biscuit liquorice gummi bears.</p>
+
+          <div class="well">
+            <h2>Fill Out this Form</h2>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Email</label>
+                <input type="email" class="col-sm-9" placeholder="Email Address">
+                </input>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Name</label>
+                <input type="text" class="col-sm-9" placeholder="First Name, Last Name">
+                </input>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Website</label>
+                <input type="url" class="col-sm-9">
+                </input>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Checkbox</label>
+                <div class="col-sm-9">
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1">1
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option1">2
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option1">3
+                  </label>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-9">
+                  <input class="btn btn-danger" type="submit" value="Submit">
+                </div>
+              </div>
+            </form>
+        
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <img src="img/blitz1.jpg" class="img-responsive img-rounded">
+          <h2>Profile</h2>
+          <p>sidebar with a table</p>
+          
+          <table class="table table-bordered table-hover">
+            <tr>
+              <th>Colors</th>
+              <th>Sizes</th>
+              <th>Options</th>
+            </tr>
+            <tr>
+              <td>Red</td>
+              <td>Small</td>
+              <td>Tied</td>
+            </tr>
+            <tr>
+              <td>Blue</td>
+              <td>Medium</td>
+              <td>Untied</td>
+            </tr>
+          </table>
+          
+          </div>  
+        </div>
+      </div>
     </main>
     
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li><a href="bootstrap-demo.html">Bootstrap</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-        </ul>
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li class="active"><a href="bootstrap-demo.html">Bootstrap</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+          </ul>
+          <p class="navbar-text navbar-right">&copy; 2015 Joan Williams</p>
+        </div>
       </nav>
-      <p>&copy; Copyright 2015 Joan Williams</p>
     </footer>
     
+
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
     <!--Update 11/12/15-->
     
   </body>
